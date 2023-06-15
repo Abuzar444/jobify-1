@@ -1,7 +1,7 @@
 import React from "react";
 // import { Ratio } from 'react-bootstrap';
 // import ReactPlayer from 'react-player';
-// import myVideo from './MegaGrant.mp4';
+import myVideo from './MegaGrant.mp4';
 
 import '../../styles/Home.css';
 
@@ -16,12 +16,12 @@ const Video = () => {
 
     return (
         <div className='video-wrapper' style={{}}>
-            {/*
+
             <Ratio aspectRatio="16x9">
-                <video src={src} type="video/mp4" autoPlay loop muted/>
+                <video src={src} type="video/mp4" autoPlay loop muted />
             </Ratio>
-            */}
-            {/* <ReactPlayer
+
+            <ReactPlayer
                 url={''}
                 controls={false}
                 playing={false}
@@ -30,7 +30,7 @@ const Video = () => {
                 muted={true}
                 width={'100%'}
                 height={'100%'}
-            /> */}
+            />
         </div>
     )
 
